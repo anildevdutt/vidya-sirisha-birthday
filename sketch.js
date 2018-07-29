@@ -28,7 +28,7 @@ function setup() {
     particle.setrgb(r,g,b);
     particles.push(particle);
   }
-  sf = 0.2;
+  sf = 0.23;
   r = random(200) + 55;
   g = random(200) + 55;
   b = random(200) + 55;
@@ -140,7 +140,7 @@ function nextMessage() {
     particles.push(p);
   }
 
-  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], 100/displayDensity(), height - (50/displayDensity()), 200/displayDensity(), {sampleFactor: 0.2, simplifyThreshold: 0}));
+  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], 100/displayDensity(), height - (50/displayDensity()), 200/displayDensity(), {sampleFactor: 0.23, simplifyThreshold: 0}));
   r = random(200) + 55;
   g = random(200) + 55;
   b = random(200) + 55;
@@ -157,7 +157,7 @@ function nextMessage() {
     particles.push(p);
   }
 
-  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], (width-200/displayDensity()), height - (50/displayDensity()), 200/displayDensity(), {sampleFactor: 0.2, simplifyThreshold: 0}));
+  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], (width-200/displayDensity()), height - (50/displayDensity()), 200/displayDensity(), {sampleFactor: 0.23, simplifyThreshold: 0}));
   r = random(200) + 55;
   g = random(200) + 55;
   b = random(200) + 55;
@@ -174,7 +174,7 @@ function nextMessage() {
     particles.push(p);
   }
 
-  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], (width-200/displayDensity()), 200/displayDensity(), 200/displayDensity(), {sampleFactor: 0.2, simplifyThreshold: 0}));
+  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], (width-200/displayDensity()), 200/displayDensity(), 200/displayDensity(), {sampleFactor: 0.23, simplifyThreshold: 0}));
   r = random(200) + 55;
   g = random(200) + 55;
   b = random(200) + 55;
@@ -191,7 +191,7 @@ function nextMessage() {
     particles.push(p);
   }
 
-  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], 100/displayDensity(), 200/displayDensity(), 200/displayDensity(), {sampleFactor: 0.2, simplifyThreshold: 0}));
+  points = points.concat(musicfont.textToPoints(musicnotes[floor(random(musicnotes.length))], 100/displayDensity(), 200/displayDensity(), 200/displayDensity(), {sampleFactor: 0.23, simplifyThreshold: 0}));
   r = random(200) + 55;
   g = random(200) + 55;
   b = random(200) + 55;
